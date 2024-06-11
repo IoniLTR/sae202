@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding-top: 11svh;
+    background-color: #FAFAFA;
+    font-family: 'Satoshi-Regular';
+}
+.button-primary {
+    background-color: #2D9148;
+    color: #FAFAFA;
+    padding: 5px 15px;
+    border: 1px transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-secondary {
+    background-color: #FAFAFA;
+    color: #2D9148;
+    padding: 5px 15px;
+    border: 1px solid #2D9148;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-tercery {
+    background-color: #912D33;
+    color: #FAFAFA;
+    padding: 5px 15px;
+    border: 1px transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Satoshi-Light';
+    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+         url('../fonts/Satoshi-Light.woff') format('woff'),
+         url('../fonts/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('../fonts/Satoshi-Regular.woff') format('woff'),
+         url('../fonts/Satoshi-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+         url('../fonts/Satoshi-Medium.woff') format('woff'),
+         url('../fonts/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('../fonts/Satoshi-Bold.woff') format('woff'),
+         url('../fonts/Satoshi-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+
+
+  .satoshi {
+    font-family: 'Satoshi-Regular';
+  }
+  .satoshi-light {
+    font-family: 'Satoshi-Light';
+  } 
+  .satoshi-medium {
+    font-family: 'Satoshi-Medium';
+  }
+  .satoshi-bold {
+    font-family: 'Satoshi-Bold';
+  }
